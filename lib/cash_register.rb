@@ -11,7 +11,7 @@ class CashRegister
     @total += price*quantity
     i = quantity
     while i > 0 do
-      @itemslist.push(title) 
+      @itemslist.push(title)
       i -= 1
     end
   end
