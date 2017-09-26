@@ -25,7 +25,7 @@ class CashRegister
   end
 
   def items
-    @@all_items
+    self.items
   end
 
 end
